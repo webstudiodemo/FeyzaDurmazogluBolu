@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Feyza Durmazoğlu Bolu — güzellik, bakım ve kişisel bakım deneyimi.">
+  <meta name="theme-color" content="#11110f">
+  <title>Feyza Durmazoğlu — Bolu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.8/dist/lenis.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <div class="site-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="Feyza Durmazoğlu Bolu ana sayfa">FEYZA <em>DURMAZOĞLU</em></a>
+    <nav class="desktop-nav" aria-label="Ana navigasyon">
+      <a href="#experience">Deneyim</a>
+      <a href="#services">Hizmetler</a>
+      <a href="#studio">Stüdyo</a>
+      <a href="#reviews">Yorumlar</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+    <a class="header-cta magnetic" href="#booking">Randevu Al <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Mobil navigasyon">
+      <a href="#experience">Deneyim</a>
+      <a href="#services">Hizmetler</a>
+      <a href="#studio">Stüdyo</a>
+      <a href="#reviews">Yorumlar</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+    <a class="mobile-menu-contact" href="tel:+905347099081">+90 534 709 90 81</a>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top" aria-label="Feyza Durmazoğlu Bolu">
+      <div class="hero-media parallax-media">
+        <img src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=2200&q=88" alt="Premium güzellik stüdyosunda bakım deneyimi" fetchpriority="high">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow reveal">BOLU · BEAUTY STUDIO</p>
+        <h1 class="reveal">Kendine<br><em>ayırdığın</em><br>zaman.</h1>
+        <div class="hero-bottom reveal">
+          <p>Bakımın bir işlemden fazlası olduğuna inanıyoruz.<br>Ritüel, detay ve sana ayrılmış zaman.</p>
+          <a class="circle-link" href="#booking" aria-label="Randevu al"><span>Randevu<br>al</span><b>↘</b></a>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="marquee" aria-label="Marka mesajı">
+      <div class="marquee-track"><span>BEAUTY</span><i>✦</i><span>CARE</span><i>✦</i><span>RITUAL</span><i>✦</i><span>ELEGANCE</span><i>✦</i><span>SELF CARE</span><i>✦</i><span>SIGNATURE</span><i>✦</i><span>BEAUTY</span><i>✦</i><span>CARE</span><i>✦</i><span>RITUAL</span><i>✦</i><span>ELEGANCE</span><i>✦</i></div>
+    </section>
+
+    <section class="intro section-pad" id="experience">
+      <div class="intro-label">01 / DENEYİM</div>
+      <div class="intro-copy">
+        <p class="eyebrow">THE FEYZA DURMAZOĞLU EXPERIENCE</p>
+        <h2>Güzellik, <em>ritüele</em> dönüştüğünde.</h2>
+        <p class="body-copy">Kendinize zaman ayırdığınız, detayların önemsendiği ve bakımın kişisel bir deneyime dönüştüğü bir stüdyo yaklaşımı.</p>
+      </div>
+    </section>
+
+    <section class="pinned-reveal" id="studio" aria-label="Stüdyo görsel deneyimi">
+      <div class="pin-stage">
+        <div class="pin-image-wrap">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1800&q=86" alt="Güzellik ve cilt bakımı detay görüntüsü" loading="lazy">
+        </div>
+        <div class="pin-caption"><span>02 / STUDIO</span><strong>DETAIL<br>MATTERS.</strong></div>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 / HİZMETLER</p><h2>Senin <em>ritmin.</em></h2></div>
+        <p>İşlem detayları ve güncel fiyat bilgisi için randevu öncesinde bizimle iletişime geçebilirsiniz.</p>
+      </div>
+      <div class="service-list">
+        <article class="service-item"><span>01</span><h3>Cilt Bakımı</h3><p>Cildin ihtiyacına göre planlanan bakım deneyimleri.</p><b>↗</b></article>
+        <article class="service-item"><span>02</span><h3>Lazer Epilasyon</h3><p>Kişisel bakım rutininize eşlik eden uygulamalar.</p><b>↗</b></article>
+        <article class="service-item"><span>03</span><h3>Manikür &amp; Pedikür</h3><p>Detaylara odaklanan el ve ayak bakım ritüelleri.</p><b>↗</b></article>
+        <article class="service-item"><span>04</span><h3>Makyaj &amp; Güzellik</h3><p>Özel günler ve kişisel stiliniz için profesyonel dokunuşlar.</p><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="fullscreen-transition" aria-label="Koleksiyon geçişi">
+      <div class="transition-image">
+        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=2200&q=88" alt="Bakım ürünleri ve güzellik detayları" loading="lazy">
+        <div class="transition-title">TAKE<br><em>YOUR TIME.</em></div>
+      </div>
+    </section>
+
+    <section class="collection" id="collection" aria-label="Bakım dünyası">
+      <div class="collection-pin">
+        <div class="collection-intro"><p class="eyebrow">04 / SIGNATURE</p><h2>Bakımın<br><em>detayları.</em></h2></div>
+        <div class="collection-track">
+          <article class="collection-card"><div class="collection-image"><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1100&q=85" alt="Cilt bakım detayı" loading="lazy"></div><span>01 / SKIN</span><h3>Skin Ritual</h3></article>
+          <article class="collection-card"><div class="collection-image"><img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=1100&q=85" alt="Manikür bakım detayı" loading="lazy"></div><span>02 / NAILS</span><h3>Care &amp; Detail</h3></article>
+          <article class="collection-card"><div class="collection-image"><img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1100&q=85" alt="Profesyonel makyaj görünümü" loading="lazy"></div><span>03 / BEAUTY</span><h3>Signature Look</h3></article>
+          <article class="collection-card"><div class="collection-image"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1100&q=85" alt="Güzellik stüdyosu atmosferi" loading="lazy"></div><span>04 / STUDIO</span><h3>Your Moment</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-pad">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1500&q=85" alt="Güzellik ve bakım atmosferi" loading="lazy"></div>
+      <div class="about-copy"><p class="eyebrow">05 / PHILOSOPHY</p><h2>Güzel hissetmek,<br><em>kendinle başlar.</em></h2><p class="body-copy">Feyza Durmazoğlu Bolu; bakım, güzellik ve kişisel zaman fikrini tek bir deneyimde buluşturmayı amaçlayan bir güzellik merkezi olarak konumlanıyor.</p><a class="text-link" href="#booking">Randevu deneyimini başlat <span>↗</span></a></div>
+    </section>
+
+    <section class="reviews section-pad" id="reviews">
+      <div class="reviews-head"><div><p class="eyebrow">06 / REAL CLIENT EXPERIENCE</p><h2>Gerçek deneyimler.</h2></div><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Feyza%20Durmazo%C4%9Flu%20Bolu" target="_blank" rel="noopener">Google Maps'te tüm yorumları gör ↗</a></div>
+      <div class="review-grid">
+        <blockquote><span>★★★★★</span><p>Google yorumları burada gerçek kullanıcı deneyimleriyle güncellenecek.</p><footer>— Google Reviews</footer></blockquote>
+        <blockquote><span>★★★★★</span><p>Yorumların tamamını işletmenin Google Maps sayfasından inceleyebilirsiniz.</p><footer>— Feyza Durmazoğlu Bolu</footer></blockquote>
+      </div>
+      <p class="review-note">Not: Bu kartlarda örnek metin kullanılmaması için henüz gerçek yorum içeriği kopyalanmadı. Google yorumları doğrudan kaynaktan doğrulanarak eklenebilir.</p>
+    </section>
+
+    <section class="booking section-pad" id="booking">
+      <div class="booking-intro"><p class="eyebrow">07 / APPOINTMENT</p><h2>Takvimini<br><em>kendin için</em> aç.</h2><p>Hizmetini seç, tarih ve saat tercihini oluştur. Son adımda randevu talebin WhatsApp üzerinden hazır mesaj olarak açılır.</p></div>
+      <form class="booking-form" id="bookingForm">
+        <label>Hizmet<select id="service" required><option value="">Seçiniz</option><option>Cilt Bakımı</option><option>Lazer Epilasyon</option><option>Manikür & Pedikür</option><option>Makyaj & Güzellik</option></select></label>
+        <label>Tarih<input id="date" type="date" required></label>
+        <label>Saat<select id="time" required><option value="">Seçiniz</option><option>09:30</option><option>11:00</option><option>12:30</option><option>14:00</option><option>15:30</option><option>17:00</option><option>18:30</option><option>20:00</option></select></label>
+        <label>Ad Soyad<input id="name" type="text" autocomplete="name" placeholder="Adınız Soyadınız" required></label>
+        <label>Telefon<input id="phone" type="tel" autocomplete="tel" placeholder="05xx xxx xx xx" required></label>
+        <label class="full">Not <textarea id="note" rows="3" placeholder="Varsa belirtmek istediğiniz bir not..."></textarea></label>
+        <div class="booking-summary" id="bookingSummary"><span>Randevu özeti</span><strong>Bilgilerinizi doldurun.</strong></div>
+        <button class="submit-button magnetic" type="submit">WhatsApp ile randevu talebi <span>↗</span></button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="location section-pad" id="contact">
+      <div class="location-copy"><p class="eyebrow">08 / LOCATION</p><h2>Bolu'da<br><em>buluşalım.</em></h2><address>Mehmet Akif Ersoy Bulvarı,<br>Borazanlar, A Blok No:7,<br>14100 Bolu Merkez / Bolu</address><div class="contact-links"><a href="tel:+905347099081">+90 534 709 90 81</a><a href="https://www.instagram.com/byfeyzadurmazoglu.bolu/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.google.com/maps/search/?api=1&query=Feyza%20Durmazo%C4%9Flu%20Bolu" target="_blank" rel="noopener">Yol tarifi ↗</a></div></div>
+      <div class="map-card"><iframe title="Feyza Durmazoğlu Bolu konumu" loading="lazy" src="https://www.google.com/maps?q=Feyza%20Durmazo%C4%9Flu%20Bolu&output=embed"></iframe></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-top"><a class="brand" href="#top">FEYZA <em>DURMAZOĞLU</em></a><p>BEAUTY · CARE · RITUAL</p></div><div class="footer-bottom"><span>© 2026 Feyza Durmazoğlu Bolu</span><span>Bolu / Türkiye</span><a href="https://www.instagram.com/byfeyzadurmazoglu.bolu/" target="_blank" rel="noopener">Instagram ↗</a></div></footer>
+
+  <div class="cursor" aria-hidden="true"></div>
+</body>
+</html>
