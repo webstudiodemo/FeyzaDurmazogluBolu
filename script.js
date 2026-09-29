@@ -55,4 +55,4 @@ function initBooking(){const f=$("#bookingForm");if(!f)return;const s=$("#servic
   initHeader();initLenis();initCinematicOpening();initHeroParallax();initPinnedReveal();initFullscreen();initHorizontal();initMouse();initBooking();initAnchors();
   addEventListener("load",()=>window.ScrollTrigger&&ScrollTrigger.refresh());
 }
-}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init()})();
+document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init()})();
